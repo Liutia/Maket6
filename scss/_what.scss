@@ -1,0 +1,132 @@
+.what{
+    min-height: 894px;
+    height: min-content;
+    background-color: $fiolet4;
+    .container{
+      .whattext1{
+        max-width: 640px;
+        height: min-content;
+        color: #ffffff;
+        font-size: 37px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 5.6px;
+        line-height: normal;
+        margin: 105px auto 0px;
+        padding: 0 0 0 6px;
+      }
+      .line1{
+        max-width: 87px;
+        height: 4px;
+        background-color: $black;
+        opacity: 0.15;
+        margin: -2px auto 17px;
+      }
+      .whattext2{
+        max-width: 150px;
+        height: min-content;
+        color: $white4;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: 0.36px;
+        line-height: normal;
+        margin: 16px auto 58px;
+      }
+      .comment{
+        .ava{
+          width: 96px;
+          height: 96px;
+          background-color: $grey2;
+          border-radius: 50%;
+          float: left;
+          margin: 7px 40px 210px 6px;
+        }
+        .ava2, .ava4{
+          margin-left: 18px;
+        }
+        .ava5{
+          margin-left: 19px;
+        }
+        .text{
+          width: 360px;
+          height: 85px;
+          color: $white4;
+          font-size: 21px;
+          font-style: italic;
+          text-align: left;
+          letter-spacing: 0.25px;
+          line-height: normal;
+          margin: 10px 0 0 149px;
+          .text2{
+            margin-left: 17px;
+            width: 360px;
+          }
+          .text3{
+            width: 377px;
+            margin: 1px 0 0 16px;
+            letter-spacing: 0.01px;
+          }
+        }
+        .author{
+          margin: 115px 0 0 0;
+          height: 18px;
+          color: $white4;
+          font-size: 24px;
+          font-weight: 700;
+          text-align: center;
+          text-transform: uppercase;
+          font-style: normal;
+          letter-spacing: 0.48px;
+          line-height: normal;
+          .author1{
+            margin: -89px 0 0px 80px;
+            width: 230px;
+          }
+          .author2{
+            margin: -89px 0 0 103px;
+            width: 230px;
+          }
+          .author3{
+            width: 240px;
+            margin: -88px 0 0 113px;
+            letter-spacing: 0.8px;
+          }
+          .author4{
+            width: 230px;
+            margin: -88px 0 0 90px;
+          }
+        }
+        .prof{
+          height: 15px;
+          color: $yellow;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          font-style: normal;
+          letter-spacing: 0.36px;
+          line-height: normal;
+          .prof1{
+            width: 177px;
+            margin: 13px 0 0 151px;
+          }
+          .prof2{
+            width: 235px;
+            margin: 13px 0 0 168px;
+          }
+          .prof3{
+            width: 251px;
+            margin: 13px 0 0 151px;
+          }
+          .prof4{
+            width: 245px;
+            margin: 13px 0 0 166px;
+            letter-spacing: 0.5px;
+          }
+        }
+      }
+    }
+  }

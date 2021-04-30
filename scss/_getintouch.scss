@@ -1,0 +1,87 @@
+.getintouch{
+    min-height: 819px;
+    height: min-content;
+    background-color: #3c5499;
+    margin-top: -7px;
+    .getintouchtext1{
+      max-width: 300px;
+      margin: 106px auto 0;
+      padding: 0 0 0 5px;
+      height: 29px;
+      color: #ffffff;
+      font-size: 37px;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      font-style: normal;
+      letter-spacing: 5.8px;
+      line-height: normal;
+    }
+    .line1{
+      max-width: 87px;
+      height: 4px;
+      background-color: #000000;
+      opacity: 0.15;
+      margin: 35px auto 17px;
+    }
+    .getintouchtext2{
+      margin: 16px auto 82px;
+      height: 19px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      font-style: normal;
+      letter-spacing: 0.44px;
+      line-height: normal;
+    }
+    .form{
+      .container{
+        max-width: 860px;
+        padding: 0;
+        .inputforma{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 26px;
+          border: none;
+          .contact-us-input{
+            width: 414px;
+            height: 56px;
+            background-color: #273a71;
+            border: none;
+            padding-left: 25px;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 18px;
+            text-align: left;
+            border-radius: 4px;
+          }
+        }
+        textarea{
+          background-color: #273a71;
+          padding: 22px 0 0 25px;
+          border: none;
+          margin: 1px 0px 0;
+          width: 860px;
+          height: 200px;
+          border-radius: 4px;
+          color: #ffffff;
+          font-size: 18px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 18px;
+          text-align: left;
+        }
+        button{
+          margin: 59px 284px;
+          padding: 0px;
+          border: none;
+          border-radius: 5px;
+        }
+      }
+    }
+  }

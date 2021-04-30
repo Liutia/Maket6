@@ -1,0 +1,181 @@
+.BTeam{
+    min-height: 914px;
+    height: min-content;
+    background-color: $white3;
+    .BTeamtext1{
+      height: min-content;
+      color: $blue1;
+      font-size: 38px;
+      font-weight: 700;
+      font-style: normal;
+      text-align: center;
+      letter-spacing: 5.15px;
+      line-height: normal;
+      margin: 0 auto;
+      padding: 105px 0 0 3px;
+    }
+    .line1{
+      max-width: 87px;
+      height: 4px;
+      background-color: $black;
+      opacity: 0.15;
+      margin: -1px 0 -1px 527px;
+    }
+    .BTeamtext2{
+      margin: 1px auto 55px;
+      padding-top: 17px;
+      max-width: 680px;
+      height: 19px;
+      color: $blue1;
+      font-size: 19px;
+      font-weight: 400;
+      text-align: center;
+      font-style: normal;
+      line-height: normal;
+    }
+    .team{
+      margin: 0 auto;
+      .avaA{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: $grey;
+        margin: 47px 0 0 35px;
+      }
+      .avaK{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: $grey;
+        margin: 47px 0 0 30px;
+      }
+      .avaO{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: $grey;
+        margin: 47px 0 0 25px;
+      }
+      .avaAS{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: $grey;
+        margin: 47px 0 0 20px;
+      }
+      .name{
+        margin-left: auto;
+        margin-top: 31px;
+        width: 100%;
+        height: 18px;
+        color: $blue1;
+        font-size: 24px;
+        text-align: right;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 0.48px;
+        line-height: normal;
+        margin-bottom: 19px;
+        .ANNE{
+          margin-right: 25px;
+        }
+        .Kate{
+          margin-right: 57px;
+        }
+        .Olivia{
+          text-align: center;
+          margin-right: 6px;
+        }
+        .Ashley{
+          text-align: center;
+          margin-right: 5px;
+        }
+      }
+      .proff{
+        height: 16px;
+        color: $blue2;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: 0.32px;
+        line-height: normal;
+        .ANNE{
+          margin-left: 15px;
+          margin-top: -1px;
+        }
+        .Kate{
+          margin-left: 5px;
+        }
+        .Olivia{
+          text-align: center;
+          margin-right: 6px;
+        }
+        .Ashley{
+          text-align: center;
+          margin-right: 5px;
+        }
+      }
+      .teamtext{
+        width: 202px;
+        height: 112px;
+        color: $blue1;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: 0.32px;
+        margin: 26px auto;
+        line-height: normal;
+        .ANNE{
+          margin-left: 8px;
+          width: 202px;
+        }
+        .Kate{
+          margin-left: 5px;
+        }
+        .Olivia{
+          width: 208px;
+          margin-left: -4px;
+          margin-top: 27px;
+        }
+        .Ashley{
+          text-align: center;
+          margin-right: 5px;
+        }
+      }
+      .teamlinks1{
+        margin-left: 54px;
+        width: 163px;
+        height: 32px;
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .teamlinks2{
+        margin-left: 70.5px;
+        width: 119px;
+        height: 32px;
+        margin-top: 36px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .teamlinks3{
+        margin-left: 44px;
+        width: 163px;
+        height: 35px;
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .teamlinks4{
+        margin-left: 60px;
+        width: 120px;
+        height: 32px;
+        margin-top: 36px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }

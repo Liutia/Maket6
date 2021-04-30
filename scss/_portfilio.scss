@@ -1,0 +1,176 @@
+.portfolio{
+    min-height: 1423px;
+    height: min-content;
+    background-color: $yellow;
+    .container{
+      .portfoliotext1{
+        max-width: 400px;
+        height: min-content;
+        color: $black2;
+        font-size: 38px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        letter-spacing: 5px;
+        line-height: normal;
+        margin: 0 auto;
+        margin-top: 105px;
+        padding-left: 3px;
+      }
+      .line1{
+        max-width: 87px;
+        height: 4px;
+        background-color: $black;
+        opacity: 0.15;
+        margin: -3px auto 0;
+      }
+      .portfoliotext2{
+        max-width: 516px;
+        height: min-content;
+        color: $black2;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: 0.36px;
+        line-height: normal;
+        margin: 17px auto;
+      }
+      .portfoliobuttons{
+        margin: 38px auto 49px;
+        max-width: 378px;
+        height: 38px;
+        display: flex;
+        justify-content: space-between;
+        .all{
+          height: 38px;
+          width: 84px;
+          border: none;
+          background-color: $white5;
+          border-radius: 5px;
+          color: $black2;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          font-style: normal;
+          letter-spacing: 0.36px;
+          text-align: center;
+          line-height: normal;
+          padding: 0 0 0 2px;
+        }
+        .all:hover{
+          background-color: $white4;
+        }
+        .web{
+          height: 38px;
+          width: 84px;
+          border: none;
+          background-color: $white5;
+          border-radius: 5px;
+          color: $black2;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          font-style: normal;
+          letter-spacing: 0.36px;
+          text-align: center;
+          line-height: normal;
+          padding: 0 0px 1px 7px;
+        }
+        .web:hover{
+          background-color: $white4;
+        }
+        .apps{
+          height: 38px;
+          width: 90px;
+          border: none;
+          background-color: $white5;
+          border-radius: 5px;
+          color: $black2;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          font-style: normal;
+          letter-spacing: 0.36px;
+          text-align: center;
+          line-height: normal;
+          padding: 0 0 0px 5px;
+        }
+        .apps:hover{
+          background-color: $white4;
+        }
+        .icons{
+          height: 38px;
+          width: 90px;
+          border: none;
+          background-color: $white5;
+          border-radius: 5px;
+          color: $black2;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          font-style: normal;
+          letter-spacing: 0.36px;
+          text-align: center;
+          line-height: normal;
+          padding: 0 0 0 2px;
+        }
+        .icons:hover{
+          background-color: $white4;
+        }
+      }
+      .portfoliofoto{
+        margin-top: 14px;
+        .foto1{
+          margin-left: 5px;
+        }
+        .foto2{
+          margin: 3px 0 0 -4px;
+        }
+        .foto3{
+          margin-left: 7px;
+        }
+        .foto4{
+          margin: 1px 0 0 -3px;
+        }
+        .text{
+          max-width: 305px;
+          height: 14px;
+          color: $black2;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: left;
+          text-transform: uppercase;
+          font-style: normal;
+          letter-spacing: 0.36px;
+          line-height: normal;
+          margin: 0 auto 79px;
+          .text1{
+            padding: 25px 0 0 17px;
+          }
+          .text2{
+            padding: 22px 0 0 72px;
+          }
+          .text3{
+            padding: 24px 0 0 52px;
+          }
+          .text4{
+            padding: 23px 0 0 37px;
+          }
+        }
+      }
+      .linka{
+        margin: 888px auto 0;
+        width: 292px;
+        height: 70px;
+      }
+      a{
+        width: 293px;
+        height: 70px;
+      }
+      .link{
+        margin: 34px auto;
+      }
+    }
+  }

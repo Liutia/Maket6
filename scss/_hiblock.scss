@@ -1,0 +1,28 @@
+.hiblock{
+    width: 100%;
+    background-color: $fiolet3;
+    .container{
+      height: min-content;
+      .hitext{
+        margin: 0 0 0 101px;
+        margin-top: 231px;
+        max-width: 930px;
+        height: min-content;
+        color: $white2;
+        font-size: 39px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 1.9px;
+        line-height: 48.82px;
+        text-align: center;
+        .hitext2{
+          text-align: center;
+          letter-spacing: 2px;
+          margin: -9px 0 0 10px;
+        }
+        .knopka{
+          margin: 53px 0 145px 9px;
+        }
+      }
+    }
+  }

@@ -1,0 +1,743 @@
+@font-face {
+  font-family: "Titillium Web";
+  src: url(../fonts/TitilliumWeb-Regular.ttf); }
+
+body {
+  padding: 0;
+  font-family: "Titillium Web";
+  margin: 0; }
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100; }
+  header .header_b {
+    background-color: #cc66ff; }
+  header .container {
+    height: 130px; }
+    header .container .logoandh {
+      display: flex;
+      justify-content: space-between; }
+      header .container .logoandh .logo {
+        padding-top: 57px;
+        height: 130px;
+        margin-left: 62px; }
+      header .container .logoandh .menu {
+        margin-top: 56px;
+        margin-right: 27px;
+        max-width: 488px; }
+      header .container .logoandh .header_list {
+        margin-top: 4px;
+        display: flex;
+        justify-content: space-between; }
+        header .container .logoandh .header_list li {
+          list-style: none;
+          text-decoration: none;
+          width: min-content; }
+        header .container .logoandh .header_list a {
+          color: white;
+          text-decoration: none; }
+        header .container .logoandh .header_list .home {
+          margin-left: -2px; }
+        header .container .logoandh .header_list .menuheaderlink {
+          padding: 6px 17px;
+          width: min-content; }
+        header .container .logoandh .header_list .menuheaderlink:hover {
+          height: 32px;
+          background-color: #643a79;
+          padding: 6px 17px;
+          border-radius: 10%; }
+        header .container .logoandh .header_list .headerlink {
+          height: 13px;
+          letter-spacing: 1.2px; }
+
+.hiblock {
+  width: 100%;
+  background-color: #87509c; }
+  .hiblock .container {
+    height: min-content; }
+    .hiblock .container .hitext {
+      margin: 0 0 0 101px;
+      margin-top: 231px;
+      max-width: 930px;
+      height: min-content;
+      color: #f7f3ea;
+      font-size: 39px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 1.9px;
+      line-height: 48.82px;
+      text-align: center; }
+      .hiblock .container .hitext .hitext2 {
+        text-align: center;
+        letter-spacing: 2px;
+        margin: -9px 0 0 10px; }
+      .hiblock .container .hitext .knopka {
+        margin: 53px 0 145px 9px; }
+
+.services {
+  background-color: #17c2a4;
+  min-height: 747px;
+  height: min-content; }
+  .services .servicestext1 {
+    margin: 106px auto 0;
+    padding-left: 5px;
+    max-width: 560px;
+    height: min-content;
+    color: white;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 6px;
+    line-height: normal; }
+  .services .line1 {
+    max-width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+    margin: -3px auto 0; }
+  .services .servicestext2 {
+    margin: 18px auto 0;
+    padding-left: 4px;
+    max-width: 604px;
+    height: min-content;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.37px;
+    line-height: 26px;
+    text-align: center; }
+  .services .whichservis .foto {
+    width: min-content;
+    margin: 0 auto; }
+    .services .whichservis .foto .Flag {
+      margin: 71px 0 0 27px; }
+    .services .whichservis .foto .Crayon {
+      margin: 66px 0 0 15px; }
+    .services .whichservis .foto .Gears {
+      margin: 71px 0 0 -14px; }
+    .services .whichservis .foto .Rocket {
+      margin: 67px 0 0 -20px; }
+  .services .whichservis .textservice1 {
+    margin: 54px auto 0;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: normal; }
+    .services .whichservis .textservice1 .Branding {
+      padding: 0 0 0 14px; }
+    .services .whichservis .textservice1 .Design {
+      margin: -2px 0 0 6px; }
+    .services .whichservis .textservice1 .Development {
+      margin: -2px 0 0 -8px;
+      letter-spacing: 1.6px; }
+    .services .whichservis .textservice1 .Rocket {
+      margin: -6px 0 0 -16px;
+      letter-spacing: 1.6px; }
+  .services .whichservis .textservice2 {
+    margin: 0 auto 50px;
+    width: 207px;
+    height: 64px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.2px;
+    line-height: normal; }
+    .services .whichservis .textservice2 .Branding {
+      margin: 13px 0 0 13px; }
+    .services .whichservis .textservice2 .Design {
+      margin: 13px 0 0 5px; }
+    .services .whichservis .textservice2 .Development {
+      margin: 13px 0 0 -5px; }
+    .services .whichservis .textservice2 .Rocket {
+      width: 192px;
+      margin: 13px 0 0 0px; }
+
+.BTeam {
+  min-height: 914px;
+  height: min-content;
+  background-color: #e7f1f8; }
+  .BTeam .BTeamtext1 {
+    height: min-content;
+    color: #3c4761;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 5.15px;
+    line-height: normal;
+    margin: 0 auto;
+    padding: 105px 0 0 3px; }
+  .BTeam .line1 {
+    max-width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+    margin: -1px 0 -1px 527px; }
+  .BTeam .BTeamtext2 {
+    margin: 1px auto 55px;
+    padding-top: 17px;
+    max-width: 680px;
+    height: 19px;
+    color: #3c4761;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    line-height: normal; }
+  .BTeam .team {
+    margin: 0 auto; }
+    .BTeam .team .avaA {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #878787;
+      margin: 47px 0 0 35px; }
+    .BTeam .team .avaK {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #878787;
+      margin: 47px 0 0 30px; }
+    .BTeam .team .avaO {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #878787;
+      margin: 47px 0 0 25px; }
+    .BTeam .team .avaAS {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #878787;
+      margin: 47px 0 0 20px; }
+    .BTeam .team .name {
+      margin-left: auto;
+      margin-top: 31px;
+      width: 100%;
+      height: 18px;
+      color: #3c4761;
+      font-size: 24px;
+      text-align: right;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-style: normal;
+      letter-spacing: 0.48px;
+      line-height: normal;
+      margin-bottom: 19px; }
+      .BTeam .team .name .ANNE {
+        margin-right: 25px; }
+      .BTeam .team .name .Kate {
+        margin-right: 57px; }
+      .BTeam .team .name .Olivia {
+        text-align: center;
+        margin-right: 6px; }
+      .BTeam .team .name .Ashley {
+        text-align: center;
+        margin-right: 5px; }
+    .BTeam .team .proff {
+      height: 16px;
+      color: #30bae7;
+      font-size: 16px;
+      font-weight: 400;
+      text-align: center;
+      font-style: normal;
+      letter-spacing: 0.32px;
+      line-height: normal; }
+      .BTeam .team .proff .ANNE {
+        margin-left: 15px;
+        margin-top: -1px; }
+      .BTeam .team .proff .Kate {
+        margin-left: 5px; }
+      .BTeam .team .proff .Olivia {
+        text-align: center;
+        margin-right: 6px; }
+      .BTeam .team .proff .Ashley {
+        text-align: center;
+        margin-right: 5px; }
+    .BTeam .team .teamtext {
+      width: 202px;
+      height: 112px;
+      color: #3c4761;
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      font-style: normal;
+      letter-spacing: 0.32px;
+      margin: 26px auto;
+      line-height: normal; }
+      .BTeam .team .teamtext .ANNE {
+        margin-left: 8px;
+        width: 202px; }
+      .BTeam .team .teamtext .Kate {
+        margin-left: 5px; }
+      .BTeam .team .teamtext .Olivia {
+        width: 208px;
+        margin-left: -4px;
+        margin-top: 27px; }
+      .BTeam .team .teamtext .Ashley {
+        text-align: center;
+        margin-right: 5px; }
+    .BTeam .team .teamlinks1 {
+      margin-left: 54px;
+      width: 163px;
+      height: 32px;
+      margin-top: 37px;
+      display: flex;
+      justify-content: space-between; }
+    .BTeam .team .teamlinks2 {
+      margin-left: 70.5px;
+      width: 119px;
+      height: 32px;
+      margin-top: 36px;
+      display: flex;
+      justify-content: space-between; }
+    .BTeam .team .teamlinks3 {
+      margin-left: 44px;
+      width: 163px;
+      height: 35px;
+      margin-top: 35px;
+      display: flex;
+      justify-content: space-between; }
+    .BTeam .team .teamlinks4 {
+      margin-left: 60px;
+      width: 120px;
+      height: 32px;
+      margin-top: 36px;
+      display: flex;
+      justify-content: space-between; }
+
+.skills .container .skillstext1 {
+  max-width: 400px;
+  height: min-content;
+  color: #3c4761;
+  font-size: 37px;
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 5.8px;
+  line-height: normal;
+  margin: 104px auto 5px;
+  padding: 0px 0 0 7px; }
+
+.skills .container .line1 {
+  max-width: 87px;
+  height: 4px;
+  background-color: #000000;
+  opacity: 0.15;
+  margin: -2px auto -1px; }
+
+.skills .container .skillstext2 {
+  max-width: 569px;
+  height: min-content;
+  color: #3c4761;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  margin: 17px auto 81px; }
+
+.skills .container .foto1 {
+  margin-left: 55px; }
+
+.skills .container .foto2 {
+  margin-left: 50px; }
+
+.skills .container .foto3 {
+  margin-left: 44px; }
+
+.skills .container .foto4 {
+  margin-left: 40px; }
+
+.skills .container .type {
+  height: 18px;
+  color: #3c4761;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  margin-top: 22px;
+  margin-bottom: 132px; }
+  .skills .container .type .web {
+    margin-left: 66px; }
+  .skills .container .type .html {
+    margin-left: 67px; }
+  .skills .container .type .graphic {
+    margin-left: 33px; }
+  .skills .container .type .UI {
+    margin-left: 82px; }
+
+.portfolio {
+  min-height: 1423px;
+  height: min-content;
+  background-color: #ffdd99; }
+  .portfolio .container .portfoliotext1 {
+    max-width: 400px;
+    height: min-content;
+    color: #393939;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 5px;
+    line-height: normal;
+    margin: 0 auto;
+    margin-top: 105px;
+    padding-left: 3px; }
+  .portfolio .container .line1 {
+    max-width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+    margin: -3px auto 0; }
+  .portfolio .container .portfoliotext2 {
+    max-width: 516px;
+    height: min-content;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+    margin: 17px auto; }
+  .portfolio .container .portfoliobuttons {
+    margin: 38px auto 49px;
+    max-width: 378px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between; }
+    .portfolio .container .portfoliobuttons .all {
+      height: 38px;
+      width: 84px;
+      border: none;
+      background-color: #ebcb8d;
+      border-radius: 5px;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      font-style: normal;
+      letter-spacing: 0.36px;
+      text-align: center;
+      line-height: normal;
+      padding: 0 0 0 2px; }
+    .portfolio .container .portfoliobuttons .all:hover {
+      background-color: #ffffff; }
+    .portfolio .container .portfoliobuttons .web {
+      height: 38px;
+      width: 84px;
+      border: none;
+      background-color: #ebcb8d;
+      border-radius: 5px;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      font-style: normal;
+      letter-spacing: 0.36px;
+      text-align: center;
+      line-height: normal;
+      padding: 0 0px 1px 7px; }
+    .portfolio .container .portfoliobuttons .web:hover {
+      background-color: #ffffff; }
+    .portfolio .container .portfoliobuttons .apps {
+      height: 38px;
+      width: 90px;
+      border: none;
+      background-color: #ebcb8d;
+      border-radius: 5px;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      font-style: normal;
+      letter-spacing: 0.36px;
+      text-align: center;
+      line-height: normal;
+      padding: 0 0 0px 5px; }
+    .portfolio .container .portfoliobuttons .apps:hover {
+      background-color: #ffffff; }
+    .portfolio .container .portfoliobuttons .icons {
+      height: 38px;
+      width: 90px;
+      border: none;
+      background-color: #ebcb8d;
+      border-radius: 5px;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      font-style: normal;
+      letter-spacing: 0.36px;
+      text-align: center;
+      line-height: normal;
+      padding: 0 0 0 2px; }
+    .portfolio .container .portfoliobuttons .icons:hover {
+      background-color: #ffffff; }
+  .portfolio .container .portfoliofoto {
+    margin-top: 14px; }
+    .portfolio .container .portfoliofoto .foto1 {
+      margin-left: 5px; }
+    .portfolio .container .portfoliofoto .foto2 {
+      margin: 3px 0 0 -4px; }
+    .portfolio .container .portfoliofoto .foto3 {
+      margin-left: 7px; }
+    .portfolio .container .portfoliofoto .foto4 {
+      margin: 1px 0 0 -3px; }
+    .portfolio .container .portfoliofoto .text {
+      max-width: 305px;
+      height: 14px;
+      color: #393939;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+      text-transform: uppercase;
+      font-style: normal;
+      letter-spacing: 0.36px;
+      line-height: normal;
+      margin: 0 auto 79px; }
+      .portfolio .container .portfoliofoto .text .text1 {
+        padding: 25px 0 0 17px; }
+      .portfolio .container .portfoliofoto .text .text2 {
+        padding: 22px 0 0 72px; }
+      .portfolio .container .portfoliofoto .text .text3 {
+        padding: 24px 0 0 52px; }
+      .portfolio .container .portfoliofoto .text .text4 {
+        padding: 23px 0 0 37px; }
+  .portfolio .container .linka {
+    margin: 888px auto 0;
+    width: 292px;
+    height: 70px; }
+  .portfolio .container a {
+    width: 293px;
+    height: 70px; }
+  .portfolio .container .link {
+    margin: 34px auto; }
+
+.what {
+  min-height: 894px;
+  height: min-content;
+  background-color: #d74680; }
+  .what .container .whattext1 {
+    max-width: 640px;
+    height: min-content;
+    color: #ffffff;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 5.6px;
+    line-height: normal;
+    margin: 105px auto 0px;
+    padding: 0 0 0 6px; }
+  .what .container .line1 {
+    max-width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+    margin: -2px auto 17px; }
+  .what .container .whattext2 {
+    max-width: 150px;
+    height: min-content;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+    margin: 16px auto 58px; }
+  .what .container .comment .ava {
+    width: 96px;
+    height: 96px;
+    background-color: #787878;
+    border-radius: 50%;
+    float: left;
+    margin: 7px 40px 210px 6px; }
+  .what .container .comment .ava2, .what .container .comment .ava4 {
+    margin-left: 18px; }
+  .what .container .comment .ava5 {
+    margin-left: 19px; }
+  .what .container .comment .text {
+    width: 360px;
+    height: 85px;
+    color: #ffffff;
+    font-size: 21px;
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 0.25px;
+    line-height: normal;
+    margin: 10px 0 0 149px; }
+    .what .container .comment .text .text2 {
+      margin-left: 17px;
+      width: 360px; }
+    .what .container .comment .text .text3 {
+      width: 377px;
+      margin: 1px 0 0 16px;
+      letter-spacing: 0.01px; }
+  .what .container .comment .author {
+    margin: 115px 0 0 0;
+    height: 18px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.48px;
+    line-height: normal; }
+    .what .container .comment .author .author1 {
+      margin: -89px 0 0px 80px;
+      width: 230px; }
+    .what .container .comment .author .author2 {
+      margin: -89px 0 0 103px;
+      width: 230px; }
+    .what .container .comment .author .author3 {
+      width: 240px;
+      margin: -88px 0 0 113px;
+      letter-spacing: 0.8px; }
+    .what .container .comment .author .author4 {
+      width: 230px;
+      margin: -88px 0 0 90px; }
+  .what .container .comment .prof {
+    height: 15px;
+    color: #ffdd99;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal; }
+    .what .container .comment .prof .prof1 {
+      width: 177px;
+      margin: 13px 0 0 151px; }
+    .what .container .comment .prof .prof2 {
+      width: 235px;
+      margin: 13px 0 0 168px; }
+    .what .container .comment .prof .prof3 {
+      width: 251px;
+      margin: 13px 0 0 151px; }
+    .what .container .comment .prof .prof4 {
+      width: 245px;
+      margin: 13px 0 0 166px;
+      letter-spacing: 0.5px; }
+
+.getintouch {
+  min-height: 819px;
+  height: min-content;
+  background-color: #3c5499;
+  margin-top: -7px; }
+  .getintouch .getintouchtext1 {
+    max-width: 300px;
+    margin: 106px auto 0;
+    padding: 0 0 0 5px;
+    height: 29px;
+    color: #ffffff;
+    font-size: 37px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 5.8px;
+    line-height: normal; }
+  .getintouch .line1 {
+    max-width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+    margin: 35px auto 17px; }
+  .getintouch .getintouchtext2 {
+    margin: 16px auto 82px;
+    height: 19px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: 0.44px;
+    line-height: normal; }
+  .getintouch .form .container {
+    max-width: 860px;
+    padding: 0; }
+    .getintouch .form .container .inputforma {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 26px;
+      border: none; }
+      .getintouch .form .container .inputforma .contact-us-input {
+        width: 414px;
+        height: 56px;
+        background-color: #273a71;
+        border: none;
+        padding-left: 25px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 18px;
+        text-align: left;
+        border-radius: 4px; }
+    .getintouch .form .container textarea {
+      background-color: #273a71;
+      padding: 22px 0 0 25px;
+      border: none;
+      margin: 1px 0px 0;
+      width: 860px;
+      height: 200px;
+      border-radius: 4px;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 18px;
+      text-align: left; }
+    .getintouch .form .container button {
+      margin: 59px 284px;
+      padding: 0px;
+      border: none;
+      border-radius: 5px; }
+
+footer {
+  min-height: 112px;
+  height: min-content;
+  background-color: #344b8e; }
+  footer .container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px; }
+    footer .container .link {
+      width: min-content;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 400;
+      text-align: center;
+      font-style: normal;
+      letter-spacing: 0.48px;
+      line-height: normal;
+      margin-top: 37px; }
+      footer .container .link:hover {
+        color: #30bae7; }
+    footer .container a {
+      color: white;
+      text-decoration: none; }
+
+.toppp {
+  top: -75px;
+  position: relative; }

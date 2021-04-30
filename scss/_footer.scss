@@ -1,0 +1,28 @@
+footer{
+    min-height: 112px;
+    height: min-content;
+    background-color: $blue3;
+    .container{
+      display: flex;
+      justify-content: space-around;
+      max-width: 1140px;
+      .link{
+        width: min-content;
+        color: $white4;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+        letter-spacing: 0.48px;
+        line-height: normal;
+        margin-top: 37px;
+        &:hover{
+          color: $blue2;;
+        }
+      }
+      a{
+        color: $white;
+        text-decoration: none;
+      }
+    }
+  }

@@ -1,0 +1,108 @@
+.services{
+    background-color: $cyan;
+    min-height: 747px;
+    height: min-content;
+      .servicestext1{
+        margin: 106px auto 0;
+        padding-left: 5px;
+        max-width: 560px;
+        height: min-content;
+        color: $white;
+        font-size: 37px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 6px;
+        line-height: normal;
+      }
+      .line1{
+        max-width: 87px;
+        height: 4px;
+        background-color: $black;
+        opacity: 0.15;
+        margin: -3px auto 0;
+      }
+      .servicestext2{
+        margin: 18px auto 0;
+        padding-left: 4px;
+        max-width: 604px;
+        height: min-content;
+        color: $white;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.37px;
+        line-height: 26px;
+        text-align: center;
+      }
+      .whichservis{
+        .foto{
+          width: min-content;
+          margin: 0 auto;
+          .Flag{
+            margin: 71px 0 0 27px;
+          }
+          .Crayon{
+            margin: 66px 0 0 15px;
+          }
+          .Gears{
+            margin: 71px 0 0 -14px;
+          }
+          .Rocket{
+            margin: 67px 0 0 -20px;
+          }
+        }
+        .textservice1{
+          margin: 54px auto 0;
+          color: $white;
+          font-size: 22px;
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: normal;
+          text-align: center;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          line-height: normal;
+  
+          .Branding{
+            padding: 0 0 0 14px;
+          }
+          .Design{
+            margin: -2px 0 0 6px;
+          }
+          .Development{
+            margin: -2px 0 0 -8px;
+            letter-spacing: 1.6px;
+          }
+          .Rocket{
+            margin: -6px 0 0 -16px;
+            letter-spacing: 1.6px;
+          }
+        }
+        .textservice2{
+          margin: 0 auto 50px;
+          width: 207px;
+          height: 64px;
+          color: $white;
+          font-size: 16px;
+          font-weight: 300;
+          font-style: normal;
+          text-align: center;
+          letter-spacing: 0.2px;
+          line-height: normal;
+          .Branding{
+            margin: 13px 0 0 13px;
+          }
+          .Design{
+            margin: 13px 0 0 5px;
+          }
+          .Development{
+            margin: 13px 0 0 -5px;
+          }
+          .Rocket{
+            width: 192px;
+            margin: 13px 0 0 0px;
+          }
+  
+        }
+      }
+  }
